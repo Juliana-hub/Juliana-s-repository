@@ -24,7 +24,7 @@ import cn.edu.scujcc.service.ChannelService;
 @RestController   
 @RequestMapping("annel")
 public class ChannelController {
-	public static final Logger logger =LoggerFactory.getLogger(ChannelController.class);abcde
+	public static final Logger logger =LoggerFactory.getLogger(ChannelController.class);
 	@Autowired
 	private ChannelService service;
 	/**

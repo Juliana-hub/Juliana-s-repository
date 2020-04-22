@@ -12,7 +12,7 @@ public interface ChannelRepository extends MongoRepository<Channel,String>{
 
 public List<Channel> findByTitleAndQuality(String t,String q);
 
-
+123
 public List<Channel> findByTitle(String title);
 
 
